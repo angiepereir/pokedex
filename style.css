@@ -1,0 +1,82 @@
+body {
+    background-image: url(IMAGENFONDOPOKEDEX.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    
+   
+    
+    
+
+
+
+    
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3opx;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:red;
+    position: relative;
+    z-index: 99;
+   
+   
+  }
+
+
+  .pokemon-block{
+  border-radius: 48px 0;
+  padding: 10px;
+  box-shadow: 0 3px 15px;
+  margin: 15px;
+  }
+  .img-container{
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.pokemon-block:hover{
+    transform: scale(1.2);
+}
+
+
+
+  .pokemon-block p{
+    margin: 5px;
+  }
+  .name{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1rem;
+  };
+
+
+  .titulo{
+
+    color: hsla(0, 0%, 0%, .9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2000ms infinite; 
+ 
+
+  
+    
+  }   
+
+  
+ 
